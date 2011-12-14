@@ -18,7 +18,7 @@ namespace app.specs
    
     public class when_run : concern
     {
-      It it_should_ = () =>        
+      It it_should_show_departments_in_a_main_department = () =>        
         
     }
   }
