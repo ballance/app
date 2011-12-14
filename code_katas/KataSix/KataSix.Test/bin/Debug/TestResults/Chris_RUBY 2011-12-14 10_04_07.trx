@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0321b1c3-521d-4959-9b66-465aa6d90293" name="Chris@RUBY 2011-12-14 10:04:07" runUser="Ruby\Chris" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f8e8dfc1-3df5-4265-b9ef-bd8ed4e3e547">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Chris_RUBY 2011-12-14 10_04_07" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-14T10:04:07.0093761-07:00" queuing="2011-12-14T10:04:07.4964039-07:00" start="2011-12-14T10:04:07.7394178-07:00" finish="2011-12-14T10:04:08.1074389-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="should_verify_hannah_mixed_case_is_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="d8bf518c-1125-c621-f22e-57234d2c57f5">
+      <Execution timeOut="1800000" id="8a27e635-15b4-43bf-97a3-aacf5ad4baf6" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_hannah_mixed_case_is_valid_anagram" />
+    </UnitTest>
+    <UnitTest name="should_verify_chris_lowercase_case_is_not_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="64990e4c-134c-92e9-f54d-33dbeb20095c">
+      <Execution timeOut="1800000" id="0686bdba-271e-44e7-920b-eb25c5fb1ce0" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_chris_lowercase_case_is_not_valid_anagram" />
+    </UnitTest>
+    <UnitTest name="should_verify_Chris_mixed_case_is_not_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="a9817b53-2cd4-ae80-5be5-fef01c3b96c0">
+      <Execution timeOut="1800000" id="0d3dc597-d819-4022-a1e7-fd8c6ac1377c" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_Chris_mixed_case_is_not_valid_anagram" />
+    </UnitTest>
+    <UnitTest name="should_verify_hannah_lowercase_is_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="2af9c23c-6cd4-9006-626b-7c502b3046ff">
+      <Execution timeOut="1800000" id="7674c5e0-2c74-4609-b14b-298ff28d5094" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_hannah_lowercase_is_valid_anagram" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="64990e4c-134c-92e9-f54d-33dbeb20095c" executionId="0686bdba-271e-44e7-920b-eb25c5fb1ce0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9817b53-2cd4-ae80-5be5-fef01c3b96c0" executionId="0d3dc597-d819-4022-a1e7-fd8c6ac1377c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2af9c23c-6cd4-9006-626b-7c502b3046ff" executionId="7674c5e0-2c74-4609-b14b-298ff28d5094" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8bf518c-1125-c621-f22e-57234d2c57f5" executionId="8a27e635-15b4-43bf-97a3-aacf5ad4baf6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0686bdba-271e-44e7-920b-eb25c5fb1ce0" testId="64990e4c-134c-92e9-f54d-33dbeb20095c" testName="should_verify_chris_lowercase_case_is_not_valid_anagram" computerName="RUBY" duration="00:00:00.0838175" startTime="2011-12-14T10:04:07.8234226-07:00" endTime="2011-12-14T10:04:07.9754313-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0686bdba-271e-44e7-920b-eb25c5fb1ce0">
+      <Output>
+        <StdOut>Comparing chris to
+Output    sirhc</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d3dc597-d819-4022-a1e7-fd8c6ac1377c" testId="a9817b53-2cd4-ae80-5be5-fef01c3b96c0" testName="should_verify_Chris_mixed_case_is_not_valid_anagram" computerName="RUBY" duration="00:00:00.0009589" startTime="2011-12-14T10:04:07.9824317-07:00" endTime="2011-12-14T10:04:07.9944324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d3dc597-d819-4022-a1e7-fd8c6ac1377c">
+      <Output>
+        <StdOut>Comparing Chris to
+Output    sirhC</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7674c5e0-2c74-4609-b14b-298ff28d5094" testId="2af9c23c-6cd4-9006-626b-7c502b3046ff" testName="should_verify_hannah_lowercase_is_valid_anagram" computerName="RUBY" duration="00:00:00.0011018" startTime="2011-12-14T10:04:08.0024329-07:00" endTime="2011-12-14T10:04:08.0144336-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7674c5e0-2c74-4609-b14b-298ff28d5094">
+      <Output>
+        <StdOut>Comparing hannah to
+Output    hannah</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8a27e635-15b4-43bf-97a3-aacf5ad4baf6" testId="d8bf518c-1125-c621-f22e-57234d2c57f5" testName="should_verify_hannah_mixed_case_is_valid_anagram" computerName="RUBY" duration="00:00:00.0017785" startTime="2011-12-14T10:04:08.0174337-07:00" endTime="2011-12-14T10:04:08.0214340-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a27e635-15b4-43bf-97a3-aacf5ad4baf6">
+      <Output>
+        <StdOut>Comparing Hannah to
+Output    hannaH</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

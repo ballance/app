@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="af2de919-6876-4574-9ade-616752c0612a" name="Chris@RUBY 2011-12-14 09:58:08" runUser="Ruby\Chris" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f8e8dfc1-3df5-4265-b9ef-bd8ed4e3e547">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Chris_RUBY 2011-12-14 09_58_08" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-14T09:58:08.8468904-07:00" queuing="2011-12-14T09:58:09.2849154-07:00" start="2011-12-14T09:58:09.6189345-07:00" finish="2011-12-14T09:58:09.9599540-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="should_verify_hannah_mixed_case_is_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="d8bf518c-1125-c621-f22e-57234d2c57f5">
+      <Execution timeOut="1800000" id="d0043271-9fb1-43a0-a233-dbe5bdd48306" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_hannah_mixed_case_is_valid_anagram" />
+    </UnitTest>
+    <UnitTest name="should_verify_chris_lowercase_case_is_not_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="64990e4c-134c-92e9-f54d-33dbeb20095c">
+      <Execution timeOut="1800000" id="7d057f2b-d363-43fa-bd52-dd9850d60a35" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_chris_lowercase_case_is_not_valid_anagram" />
+    </UnitTest>
+    <UnitTest name="should_verify_Chris_mixed_case_is_not_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="a9817b53-2cd4-ae80-5be5-fef01c3b96c0">
+      <Execution timeOut="1800000" id="01a469ce-acbe-42fe-97ec-2d8b3a7f718d" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_Chris_mixed_case_is_not_valid_anagram" />
+    </UnitTest>
+    <UnitTest name="should_verify_hannah_lowercase_is_valid_anagram" storage="c:\course\app\code_katas\katasix\katasix.test\bin\debug\katasix.test.dll" id="2af9c23c-6cd4-9006-626b-7c502b3046ff">
+      <Execution timeOut="1800000" id="b71f36c5-dead-413b-86c5-071db5e2aa4e" />
+      <TestMethod codeBase="C:/course/app/code_katas/KataSix/KataSix.Test/bin/Debug/KataSix.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KataSix.Test.AnagramTests, KataSix.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="should_verify_hannah_lowercase_is_valid_anagram" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="64990e4c-134c-92e9-f54d-33dbeb20095c" executionId="7d057f2b-d363-43fa-bd52-dd9850d60a35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9817b53-2cd4-ae80-5be5-fef01c3b96c0" executionId="01a469ce-acbe-42fe-97ec-2d8b3a7f718d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2af9c23c-6cd4-9006-626b-7c502b3046ff" executionId="b71f36c5-dead-413b-86c5-071db5e2aa4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8bf518c-1125-c621-f22e-57234d2c57f5" executionId="d0043271-9fb1-43a0-a233-dbe5bdd48306" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d057f2b-d363-43fa-bd52-dd9850d60a35" testId="64990e4c-134c-92e9-f54d-33dbeb20095c" testName="should_verify_chris_lowercase_case_is_not_valid_anagram" computerName="RUBY" duration="00:00:00.0283175" startTime="2011-12-14T09:58:09.6919387-07:00" endTime="2011-12-14T09:58:09.7879442-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d057f2b-d363-43fa-bd52-dd9850d60a35">
+      <Output>
+        <StdOut>Comparing chris to
+Output    System.Linq.Enumerable+&lt;ReverseIterator&gt;d__a0`1[System.Char]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01a469ce-acbe-42fe-97ec-2d8b3a7f718d" testId="a9817b53-2cd4-ae80-5be5-fef01c3b96c0" testName="should_verify_Chris_mixed_case_is_not_valid_anagram" computerName="RUBY" duration="00:00:00.0007352" startTime="2011-12-14T09:58:09.8029450-07:00" endTime="2011-12-14T09:58:09.8049452-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01a469ce-acbe-42fe-97ec-2d8b3a7f718d">
+      <Output>
+        <StdOut>Comparing Chris to
+Output    System.Linq.Enumerable+&lt;ReverseIterator&gt;d__a0`1[System.Char]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b71f36c5-dead-413b-86c5-071db5e2aa4e" testId="2af9c23c-6cd4-9006-626b-7c502b3046ff" testName="should_verify_hannah_lowercase_is_valid_anagram" computerName="RUBY" duration="00:00:00.0339632" startTime="2011-12-14T09:58:09.8109455-07:00" endTime="2011-12-14T09:58:09.8469476-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b71f36c5-dead-413b-86c5-071db5e2aa4e">
+      <Output>
+        <StdOut>Comparing hannah to
+Output    System.Linq.Enumerable+&lt;ReverseIterator&gt;d__a0`1[System.Char]</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at KataSix.Test.AnagramTests.should_verify_hannah_lowercase_is_valid_anagram() in C:\course\app\code_katas\KataSix\KataSix.Test\AnagramTests.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0043271-9fb1-43a0-a233-dbe5bdd48306" testId="d8bf518c-1125-c621-f22e-57234d2c57f5" testName="should_verify_hannah_mixed_case_is_valid_anagram" computerName="RUBY" duration="00:00:00.0016484" startTime="2011-12-14T09:58:09.8539480-07:00" endTime="2011-12-14T09:58:09.8579482-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0043271-9fb1-43a0-a233-dbe5bdd48306">
+      <Output>
+        <StdOut>Comparing Hannah to
+Output    System.Linq.Enumerable+&lt;ReverseIterator&gt;d__a0`1[System.Char]</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at KataSix.Test.AnagramTests.should_verify_hannah_mixed_case_is_valid_anagram() in C:\course\app\code_katas\KataSix\KataSix.Test\AnagramTests.cs:line 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,10 @@
+c:\development\CodeKatas\KataSix\KataSix\bin\Debug\KataSix.exe
+c:\development\CodeKatas\KataSix\KataSix\bin\Debug\KataSix.pdb
+c:\development\CodeKatas\KataSix\KataSix\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\development\CodeKatas\KataSix\KataSix\obj\x86\Debug\KataSix.exe
+c:\development\CodeKatas\KataSix\KataSix\obj\x86\Debug\KataSix.pdb
+C:\course\app\code_katas\KataSix\KataSix\obj\x86\Debug\KataSix.exe
+C:\course\app\code_katas\KataSix\KataSix\obj\x86\Debug\KataSix.pdb
+C:\course\app\code_katas\KataSix\KataSix\bin\Debug\KataSix.exe
+C:\course\app\code_katas\KataSix\KataSix\bin\Debug\KataSix.pdb
+C:\course\app\code_katas\KataSix\KataSix\obj\x86\Debug\ResolveAssemblyReference.cache
