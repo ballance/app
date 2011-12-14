@@ -18,7 +18,7 @@ namespace app.specs
    
     public class when_run : concern
     {
-      It first_observation = () =>        
+      It it_should_ = () =>        
         
     }
   }
