@@ -25,7 +25,7 @@ namespace app.specs
         the_department = new DepartmentItem();
         the_products = new List<ProductItem> {new ProductItem()};
         
-        request.setup(x => x.map<DepartmentItem>()).Return(the_department);
+        request.setup(x => x.map<IAmAnItem>()).Return(the_department);
         store_catalog.setup(x => x.get_all_products_in(the_department)).Return(the_products);
       };
 

@@ -9,8 +9,8 @@ namespace app.specs
 {
   public class SomethingSpecs
   {
-    public abstract class concern : Observes<ISupportAStory,
-                                      Something>
+    public abstract class concern : Observes<ISupportAStory>/*,
+                                      Something>*/
     {
     }
 

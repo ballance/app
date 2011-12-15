@@ -1,6 +1,6 @@
 ﻿namespace app.web.application.catalogbrowsing
 {
-  public class DepartmentItem
+    public class DepartmentItem : IAmAnItem
   {
     public string name { get; set; }
   }

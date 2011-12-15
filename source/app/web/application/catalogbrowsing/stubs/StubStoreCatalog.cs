@@ -19,5 +19,24 @@ namespace app.web.application.catalogbrowsing.stubs
     {
       return Enumerable.Range(1, 100).Select(x => new ProductItem {name = x.ToString("Product 0")});
     }
+
+    public IEnumerable<IAmAnItem> get_things(string typeOfThings, IAmAnItem amAnItem)
+    {
+        switch (typeOfThings)
+        {
+            case "products":
+                return Enumerable.Range(1, 100).Select(x => new ProductItem { name = x.ToString("Product 0") });
+                break;
+            case "subdepartments":
+                return Enumerable.Range(1, 100).Select(x => new DepartmentItem { name = x.ToString("Sub Department 0") });
+                break;
+            case "departments":
+                return Enumerable.Range(1, 100).Select(x => new DepartmentItem { name = x.ToString("Department 0") });
+                break;
+            default:
+                return Enumerable.Range(1, 100).Select(x => new DepartmentItem { name = x.ToString("Department 0") });
+                break;
+        }
+    }
   }
 }
