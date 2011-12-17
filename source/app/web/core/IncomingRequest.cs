@@ -7,21 +7,18 @@ namespace app.web.core
 {
     public class IncomingRequest
     {
-        public static RequestCommand was()
+        public static RequestCriteria was
+        { 
+            get
+            {
+                throw new NotImplementedException();
+            } 
+            set { }
+        }
+
+        public RequestCriteria made_for<IViewItemsInDepartment>()
         {
             throw new NotImplementedException();
         }
-
-        public RequestCommand made_for<IViewItemsInDepartment>()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    public interface IRequestCriteria
-    {
-        RequestCommand was();
-
-        RequestCommand made_for<IViewItemsInDepartment>();
     }
 }
