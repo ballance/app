@@ -11,7 +11,7 @@ namespace app.specs
     [Subject(typeof(StoryUrlSpecs))]
     public class StoryUrlSpecs
     { 
-        public abstract class concern : Observes
+        public abstract class concern : Observes<StoryUrl>
         {
         }
 
