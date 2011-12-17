@@ -15,7 +15,7 @@ namespace app.web.core.stubs
 
     public IEnumerator<IProcessASingleRequest> GetEnumerator()
     {
-            yield return new RequestCommand(IncomingRequest.was.made_for<ViewMainDepartmentsRequest>(), new TimedStory(new ViewAReport<IEnumerable<DepartmentItem>,GetTheMainDepartments>(Container.fetch.an<IDisplayReports>(),
+            yield return new RequestCommand(IncomingRequest.was.made_for<ViewMainDepartments>(), new TimedStory(new ViewAReport<IEnumerable<DepartmentItem>,GetTheMainDepartments>(Container.fetch.an<IDisplayReports>(),
               Container.fetch)));
             yield return new RequestCommand(IncomingRequest.was.made_for<ViewDepartmentsInDepartment>(), new TimedStory(new ViewAReport<IEnumerable<DepartmentItem>,GetDepartmentsInDepartment>(Container.fetch.an<IDisplayReports>(),
               Container.fetch)));

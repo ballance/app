@@ -1,6 +1,6 @@
 ﻿namespace app.web.application.catalogbrowsing
 {
-  public class ViewDepartmentsInDepartment
+  public class ViewDepartmentsInDepartment : IViewItemsInDepartment
   {
      
   }

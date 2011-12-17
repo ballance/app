@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using app.infrastructure.containers;
+using app.web.core;
 using developwithpassion.specifications.rhinomocks;
 using Machine.Specifications;
 
 namespace app.specs
 {
-    [Subject(typeof(StoryUrlSpecs))]
+    [Subject(typeof(StoryUrl))]
     public class StoryUrlSpecs
     { 
-        public abstract class concern : Observes<StoryUrl>
+        public abstract class concern : Observes
         {
         }
 
@@ -19,7 +20,7 @@ namespace app.specs
         {
             Establish c = () =>
             {
-
+                
             };
 
             Because b = () =>
